@@ -7,7 +7,7 @@ Trabalho desenvolvido durante a disciplina de BD
 Álvaro Vinicius de Almeida Martins e Gabriel Gonçalves de Oliveira<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
+Nosso projeto é o AUCSYS, sigla em inglês para para "Anti Urban Chaos SYStem"(Sistema anti caos urbano). Ficamos motivados em fazer esse programa por existir poucos programas do gênero, onde os operadores agem indiretamente para tornar a vida da população de uma cidade mais segura.<br>
 
 ### 3.MINI-MUNDO<br>
 Descrever o mini-mundo. Não deve ser maior do que 30 linhas<br>
