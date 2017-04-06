@@ -4,7 +4,7 @@ Trabalho desenvolvido durante a disciplina de BD
 # Sumário
 
 ### 1.COMPONENTES<br>
-Álvaro Vinicius de Almeida Martins e Gabriel Gonçalves de Oliveira<br>
+Álvaro Vinicius de Almeida Martins (alvarovinicius7@gmail.com) e Gabriel Gonçalves de Oliveira (gaabrielws@hotmail.com)<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Nosso projeto é o AUCSYS, sigla em inglês para para "Anti Urban Chaos SYStem"(Sistema anti caos urbano). Ficamos motivados em fazer esse programa por existir poucos programas do gênero, onde os operadores agem indiretamente para tornar a vida da população de uma cidade mais segura. O programa traz a ideia de geografia e estratégia, mapeando riscos e áreas de risco para a população e analisando as melhores maneiras de se manter as pessoas seguras durante uma crise.<br>
