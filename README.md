@@ -15,9 +15,7 @@ O sistema terá o nome das cidades mais várias localidades de cada cidade, divi
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
+https://github.com/AUCSYS/Trabalho01/blob/master/AUCSYS_ULTIMATE_GabrielGon%C3%A7alves_AlvaroMartins.pdf <br>
 
 
 ### 5.MODELO CONCEITUAL<br>
