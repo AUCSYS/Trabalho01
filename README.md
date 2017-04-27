@@ -20,7 +20,7 @@ https://github.com/AUCSYS/Trabalho01/blob/master/AUCSYS_ULTIMATE_GabrielGon%C3%A
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/hue.jpg )
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/huee.jpg)
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
