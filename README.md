@@ -51,9 +51,29 @@ https://github.com/AUCSYS/Trabalho01/blob/master/AUCSYS_ULTIMATE_GabrielGon%C3%A
         CEP_OPERADOR: Campo que armazena o número de Código de Endereçamento Postal de cada operador.<br> 
         NOME_OPERADOR: Campo que armazena o nome completo de cada operador.<br>
         USERNAME_OPERADOR: Campo que armazena o nome de usuário de cada operador.<br>
-        
-
-
+        DATANASC_OPERADOR: Campo que armazena a data de nascimento de cada operador.<br>
+        PASSWORD_OPERADOR: Campo que armazena a senha de cada operador.<br>
+    TIPO_OPERADOR: Tabela que armazena os tipos de operador existentes no sistema.<br>
+        ID_TIPO_OPERADOR: Campo que armazena o código único de cada tipo de operador.<br>
+        DESCRICAO_TIPO_OPERADOR: Campo que armazena uma descrição do tipo de operador.<br>
+    CONTATO: Tabela que armazena dados de contatos de cada operador no sistema.<br>
+        ID_CONTATO: Campo que armazena o código único de cada contato no sistema.<br>
+        VALOR_CONTATO: Campo que armazena os dados do contato de cada operador.<br>
+    TIPO_CONTATO: Tabela que armazena os tipos de contato de operador existentes no sistema.<br>
+        ID_TIPO_CONTATO: Campo que armazena o código único de cada tipo de contato do operador.<br>
+        DESCRICAO_TIPO_CONTATO: Campo que armazena uma descrição do tipo de contato do operador.<br>
+    BAIRRO: Tabela que armazena dados sobre bairros da cidade cadastrada no sistema.<br>
+        ID_BAIRRO: Campo que armazena o código único para cada bairro cadastrado no sistema.<br>
+        DESCRICAO_BAIRRO: Campo que armazena informações sobre o bairro da cidade.<br>
+    CIDADE: Tabela que armazena dados sobre cada cidade cadastrada no sistema.<br>
+        ID_CIDADE: Campo que armazena o código único para cada cidade cadastrada no sistema.<br>
+        DESCRICAO_CIDADE: Campo que armazena informações sobre a cidade cadastrada.<br>
+    ESTADO: Tabela que armazena dados sobre os Estados cadastrados no sistema.<br>
+        ID_ESTADO: Campo que armazena o código único para cada Estado cadastrado no sistema.<br>
+        DESCRICAO_ESTADO: Campo que armazena informações sobre o estado cadastrado.<br>
+    PAIS: Tabela que armazena dados sobre os países cadastrados no sistema.<br>
+        ID_ESTADO: Campo que armazena o código único para cada país cadastrado no sistema.<br>
+        DESCRICAO_ESTADO: Campo que armazena informações sobre o país cadastrado.<br>     
 
 ### 6	MODELO LÓGICO<br>
 
