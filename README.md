@@ -42,6 +42,17 @@ https://github.com/AUCSYS/Trabalho01/blob/master/AUCSYS_ULTIMATE_GabrielGon%C3%A
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    
+    OPERADOR: Tabela que armazena as informações relativas ao operador do sistema.<br>
+        ID_OPERADOR: Campo que armazena o código único de cada operador.<br>
+        NUMERO_OPERADOR: Campo que armazena o número da residência de cada operador.<br>
+        RUA_OPERADOR: Campo que armazena a rua da residência de cada operador.<br>
+        CPF_OPERADOR: Campo que armazena o número de Cadastro de Pessoa Física de cada operador.<br>
+        CEP_OPERADOR: Campo que armazena o número de Código de Endereçamento Postal de cada operador.<br> 
+        NOME_OPERADOR: Campo que armazena o nome completo de cada operador.<br>
+        USERNAME_OPERADOR: Campo que armazena o nome de usuário de cada operador.<br>
+        
+
 
 
 ### 6	MODELO LÓGICO<br>
@@ -53,71 +64,71 @@ https://github.com/AUCSYS/Trabalho01/blob/master/AUCSYS_ULTIMATE_GabrielGon%C3%A
 CREATE TABLE Bairro (
 id_bairro VARCHAR(10) PRIMARY KEY,
 descricao_bairro VARCHAR(25)
-)
+);
 
 CREATE TABLE tipo_populacao (
 id_tipo_populacao VARCHAR(10) PRIMARY KEY,
 descricao_tipo_populacao VARCHAR(10)
-)
+);
 
 CREATE TABLE tipo_clima (
 id_clima VARCHAR(10) PRIMARY KEY,
 descricao_tipo_clima VARCHAR(255)
-)
+);
 
 CREATE TABLE clima (
 id_tempo VARCHAR(10) PRIMARY KEY,
 clima VARCHAR(25)
-)
+);
 
 CREATE TABLE Estado (
 id_estado VARCHAR(10) PRIMARY KEY,
 descricao_estado VARCHAR(25)
-)
+);
 
 CREATE TABLE Pais (
 id_pais VARCHAR(10) PRIMARY KEY,
 descricao_pais VARCHAR(25)
-)
+);
 
 CREATE TABLE Evento (
 id_evento VARCHAR(15) PRIMARY KEY,
 data_evento DATETIME,
 descricao_tipo_ocorrencia VARCHAR(255),
 valor_tipo_ocorrencia VARCHAR(25)
-)
+);
 
 CREATE TABLE Serviço (
 id_serviço VARCHAR(15) PRIMARY KEY,
 Estado_serviços NUMERIC(3)
-)
+);
 
 CREATE TABLE tipo_evento (
 descricao_tipo_evento VARCHAR(15),
 id_tipo_evento VARCHAR(10) PRIMARY KEY
-)
+);
 
 CREATE TABLE Cidade (
 id_cidade VARCHAR(10) PRIMARY KEY,
 descricao_cidade VARCHAR(25),
 id_estado VARCHAR(10),
 FOREIGN KEY(id_estado) REFERENCES Estado (id_estado)
-)
+);
 
 CREATE TABLE tipo_uac (
 id_tipo_uac VARCHAR(10) PRIMARY KEY,
 descricao_tipo_uac VARCHAR(10)
-)
+);
 
 CREATE TABLE Tipo_servicos (
 id_tipo_serviços VARCHAR(10) PRIMARY KEY,
 descricao_tipo_servicos VARCHAR(255)
-)
+);
 
 CREATE TABLE Poupulacao (
 id_populacao VARCHAR(10) PRIMARY KEY,
 valor_populacao NUMERIC(255)
-)
+);
 
 CREATE TABLE uac (
 id_uac VARCHAR(10) PRIMARY KEY,
@@ -126,70 +137,70 @@ pontox VARCHAR(10),
 numero_uac VARCHAR(10),
 id_tipo_uac VARCHAR(10),
 FOREIGN KEY(id_tipo_uac) REFERENCES tipo_uac (id_tipo_uac)
-)
+);
 
 CREATE TABLE ocorre1 (
 id_cidade VARCHAR(10),
 id_evento VARCHAR(10),
 FOREIGN KEY(id_cidade) REFERENCES Cidade (id_cidade),
 FOREIGN KEY(id_evento) REFERENCES Evento (id_evento)
-)
+);
 
 CREATE TABLE Pertence3 (
 id_pais VARCHAR(10),
 id_estado VARCHAR(10),
 FOREIGN KEY(id_pais) REFERENCES Pais (id_pais),
 FOREIGN KEY(id_estado) REFERENCES Estado (id_estado)
-)
+);
 
 CREATE TABLE Possui5 (
 id_serviço VARCHAR(10),
 id_cidade VARCHAR(10),
 FOREIGN KEY(id_serviço) REFERENCES Serviço (id_serviço),
 FOREIGN KEY(id_cidade) REFERENCES Cidade (id_cidade)
-)
+);
 
 CREATE TABLE Possui6 (
 id_populacao VARCHAR(10),
 id_cidade VARCHAR(10),
 FOREIGN KEY(id_populacao) REFERENCES Poupulacao (id_populacao),
 FOREIGN KEY(id_cidade) REFERENCES Cidade (id_cidade)
-)
+);
 
 CREATE TABLE Possui7 (
 id_tempo VARCHAR(10),
 id_cidade VARCHAR(10),
 FOREIGN KEY(id_tempo) REFERENCES clima (id_tempo),
 FOREIGN KEY(id_cidade) REFERENCES Cidade (id_cidade)
-)
+);
 
 CREATE TABLE Possui8 (
 id_uac VARCHAR(10),
 id_cidade VARCHAR(10),
 FOREIGN KEY(id_uac) REFERENCES uac (id_uac),
 FOREIGN KEY(id_cidade) REFERENCES Cidade (id_cidade)
-)
+);
 
 CREATE TABLE possui9 (
 id_tipo_serviços VARCHAR(10),
 id_serviço VARCHAR(10),
 FOREIGN KEY(id_tipo_serviços) REFERENCES Tipo_servicos (id_tipo_serviços),
 FOREIGN KEY(id_serviço) REFERENCES Serviço (id_serviço)
-)
+);
 
 CREATE TABLE possui10 (
 id_tipo_populacao VARCHAR(10),
 id_populacao VARCHAR(10),
 FOREIGN KEY(id_tipo_populacao) REFERENCES tipo_populacao (id_tipo_populacao),
 FOREIGN KEY(id_populacao) REFERENCES Poupulacao (id_populacao)
-)
+);
 
 CREATE TABLE possui11 (
 id_clima VARCHAR(10),
 id_tempo VARCHAR(10),
 FOREIGN KEY(id_clima) REFERENCES tipo_clima (id_clima),
 FOREIGN KEY(id_tempo) REFERENCES clima (id_tempo)
-)
+);
 
 CREATE TABLE operador (
 nome_operador VARCHAR(10),
@@ -204,7 +215,7 @@ password_operador VARCHAR(40),
 id_tipo_operador INTEGER,
 id_bairro VARCHAR(10),
 FOREIGN KEY(id_bairro) REFERENCES Bairro (id_bairro)
-)
+);
 
 CREATE TABLE contato (
 id_contato VARCHAR(25) PRIMARY KEY,
@@ -212,24 +223,24 @@ valor_contato VARCHAR(50),
 id_operador VARCHAR(10),
 id_tipo_contato INTEGER,
 FOREIGN KEY(id_operador) REFERENCES operador (id_operador)
-)
+);
 
 CREATE TABLE tipo_operador (
 id_tipo_operador INTEGER PRIMARY KEY,
 descricao_tipo_operador VARCHAR(10)
-)
+);
 
 CREATE TABLE pertence1 (
 id_cidade VARCHAR(10),
 id_bairro VARCHAR(10),
 FOREIGN KEY(id_cidade) REFERENCES Cidade (id_cidade),
 FOREIGN KEY(id_bairro) REFERENCES Bairro (id_bairro)
-)
+);
 
 CREATE TABLE tipo_contato (
 id_tipo_contato INTEGER PRIMARY KEY,
 descricao_tipo_contato VARCHAR(15)
-)
+);
 
 ALTER TABLE operador ADD FOREIGN KEY(id_tipo_operador) REFERENCES tipo_operador (id_tipo_operador)
 ALTER TABLE contato ADD FOREIGN KEY(id_tipo_contato) REFERENCES tipo_contato (id_tipo_contato)
