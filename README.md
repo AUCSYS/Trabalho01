@@ -46,7 +46,7 @@ https://github.com/AUCSYS/Trabalho01/blob/master/AUCSYS_ULTIMATE_GabrielGon%C3%A
 
 ### 6	MODELO LÓGICO<br>
 
-    https://github.com/AUCSYS/Trabalho01/blob/master/AUCSYS_LOGICO.jpg
+   ![Alt text](AUCSYS_LOGICO.jpg)
 
 ### 7	MODELO FÍSICO<br>
 
