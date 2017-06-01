@@ -76,7 +76,8 @@ https://github.com/AUCSYS/Trabalho01/blob/master/AUCSYS_ULTIMATE_GabrielGon%C3%A
         DESCRICAO_ESTADO: Campo que armazena informações sobre o estado cadastrado.<br>
     PAIS: Tabela que armazena dados sobre os países cadastrados no sistema.<br>
         ID_ESTADO: Campo que armazena o código único para cada país cadastrado no sistema.<br>
-        DESCRICAO_ESTADO: Campo que armazena informações sobre o país cadastrado.<br>     
+        DESCRICAO_ESTADO: Campo que armazena informações sobre o país cadastrado.<br>
+        
 
 ### 6	MODELO LÓGICO<br>
 
