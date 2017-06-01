@@ -274,7 +274,7 @@ ALTER TABLE contato ADD FOREIGN KEY(id_tipo_contato) REFERENCES tipo_contato (id
         Referenciar todas as fontes referentes a :
         a) obtenção dos dados
         b) obtenção de códigos reutilizados
-        c) fontes de estudo para desenvolvimento do projeto
+        c) Moodle
         
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
