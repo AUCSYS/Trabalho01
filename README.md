@@ -85,6 +85,8 @@ https://github.com/AUCSYS/Trabalho01/blob/master/AUCSYS_ULTIMATE_GabrielGon%C3%A
 
 ### 7	MODELO FÍSICO<br>
 
+https://github.com/AUCSYS/Trabalho01/blob/master/AUCSYS_FISICO.sql
+
 CREATE TABLE operador (
 id_operador INTEGER PRIMARY KEY,
 numero_operador NUMERIC(4),
