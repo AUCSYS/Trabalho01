@@ -284,7 +284,7 @@ ALTER TABLE possui12 ADD FOREIGN KEY(id_tipo_uac) REFERENCES tipo_uac (id_tipo_u
     Não utilizamos nenhum desses requisitos.
         
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-https://github.com/AUCSYS/Trabalho01/blob/master/trabalho_upgrade.sql
+https://github.com/AUCSYS/Trabalho01/blob/master/trabalho_update.sql
 
         
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
