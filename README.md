@@ -336,9 +336,16 @@ https://github.com/AUCSYS/Trabalho01/blob/master/Script%20select.sql <br>
 
 
 
-
-
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
+https://github.com/AUCSYS/Trabalho01/blob/master/Script%20where.sql <br>
+
+##### select * from estado where(descricao_estado = "SP");
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/where1.PNG)<br>
+##### select * from tipo_ocorrencia where(valor_tipo_ocorrencia < 800000);
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/where2.PNG)<br>
+##### select * from operador where(id_operador < 10004);
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/where3.PNG)<br>
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
