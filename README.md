@@ -369,6 +369,22 @@ https://github.com/AUCSYS/Trabalho01/blob/master/Script%20like.sql <br>
 
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+https://github.com/AUCSYS/Trabalho01/blob/master/Script%20update.sql <br>
+
+##### update estado set descricao_estado = 'ES' where id_estado = 10062;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/update1.PNG)<br>
+##### update operador set nome_operador = 'Carlos Santos' where id_operador = 10004;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/update2.PNG)<br>
+##### update tipo_operador set descricao_tipo_operador = 'Visitante' where id_tipo_operador = 10021;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/update3.PNG)<br>
+##### update tipo_ocorrencia set valor_tipo_ocorrencia = 99500 where id_evento_FK = 10081;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/update4.PNG)<br>
+##### update tipo_clima set descricao_tipo_clima = 'Tropical' where id_clima = 10151;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/update5.PNG)<br>
+##### update cidade set descricao_cidade = 'Vitória' where id_cidade = 10042;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/update6.PNG)<br>
+
+
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
         Entrega até este ponto em (data a ser definida)
