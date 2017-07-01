@@ -288,7 +288,7 @@ ALTER TABLE possui12 ADD FOREIGN KEY(id_tipo_uac) REFERENCES tipo_uac (id_tipo_u
         c) Moodle
         
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-https://github.com/AUCSYS/Trabalho01/blob/master/Trabalho_aucsys.sql
+https://github.com/AUCSYS/Trabalho01/blob/master/trabalho_upgrade.sql
 
         
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
