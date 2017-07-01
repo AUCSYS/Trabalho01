@@ -288,8 +288,56 @@ https://github.com/AUCSYS/Trabalho01/blob/master/trabalho_update.sql
 
         
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+https://github.com/AUCSYS/Trabalho01/blob/master/Script%20select.sql <br>
+
+##### select * from bairro;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/bairro.PNG)<br>
+##### select * from cidade;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/cidade.PNG)<br>
+##### select * from clima;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/clima.PNG)<br>
+##### select * from contato;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/contato.PNG)<br>
+##### select * from estado;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/estado.PNG)<br>
+##### select * from evento;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/evento.PNG)<br>
+##### select * from mora_monitora;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/mora_monitora.PNG)<br>
+##### select * from ocorre1;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/ocorre1.PNG)<br>
+##### select * from operador;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/operador.PNG)<br>
+##### select * from possui5;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/possui5.PNG)<br>
+##### select * from possui7;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/possui7.PNG)<br>
+##### select * from serviço;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/servi%C3%A7o.PNG)<br>
+##### select * from tipo_clima;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/tipo_clima.PNG)<br>
+##### select * from tipo_contato;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/tipo_contato.PNG)<br>
+##### select * from tipo_evento;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/tipo_evento.PNG)<br>
+##### select * from tipo_ocorrencia;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/tipo_ocorrencia.PNG)<br>
+##### select * from tipo_operador;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/tipo_operador.PNG)<br>
+##### select * from tipo_populacao;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/tipo_populacao.PNG)<br>
+##### select * from tipo_servicos;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/tipo_servico.PNG)<br>
+##### select * from tipo_uac;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/tipo_uac.PNG)<br>
+##### select * from uac;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/uac.PNG)<br>
+
+
+
+
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 
 ----------------------------------------------------------------------------------------------------------------------------------------
