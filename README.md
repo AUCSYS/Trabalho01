@@ -358,6 +358,16 @@ https://github.com/AUCSYS/Trabalho01/blob/master/Script%20operadores.sql <br>
 ![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/operadores2.PNG)<br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
+https://github.com/AUCSYS/Trabalho01/blob/master/Script%20like.sql <br>
+
+##### select * from operador where datanasc_operador like '199%-%-2%';
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/like1.PNG)<br>
+##### select * from operador where rua_operador like 'rua n%';
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/like2.PNG)<br>
+##### select * from tipo_operador where descricao_tipo_operador like 'lider';
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/like3.PNG)<br>
+
+
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
