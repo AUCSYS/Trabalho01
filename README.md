@@ -281,11 +281,7 @@ ALTER TABLE possui12 ADD FOREIGN KEY(id_tipo_uac) REFERENCES tipo_uac (id_tipo_u
     
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
-        Referenciar todas as fontes referentes a :
-        a) obtenção dos dados
-        b) obtenção de códigos reutilizados
-        c) Moodle
+    Não utilizamos nenhum desses requisitos.
         
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
 https://github.com/AUCSYS/Trabalho01/blob/master/trabalho_upgrade.sql
