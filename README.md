@@ -350,6 +350,13 @@ https://github.com/AUCSYS/Trabalho01/blob/master/Script%20where.sql <br>
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
+https://github.com/AUCSYS/Trabalho01/blob/master/Script%20operadores.sql <br>
+
+##### select * from estado where descricao_estado = 'ES' or id_pais = 10072;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/operadores1.PNG)<br>
+##### select valor_tipo_ocorrencia, valor_tipo_ocorrencia+(1000) from tipo_ocorrencia;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/operadores2.PNG)<br>
+
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
