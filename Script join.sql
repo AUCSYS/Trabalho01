@@ -1,0 +1,15 @@
+select * from bairro join cidade on (bairro.id_cidade = cidade.id_cidade);
+select * from cidade join estado on (cidade.id_estado = estado.id_estado) join populacao on (cidade.id_populacao = populacao.id_populacao);
+select * from clima join tipo_clima on (clima.id_clima = tipo_clima.id_clima);
+select * from contato join operador on (contato.id_operador = operador.id_operador) join tipo_contato on (contato.id_tipo_contato = tipo_contato.id_tipo_contato);
+select * from estado join pais on (estado.id_pais = estado.id_pais);
+select * from evento join tipo_evento on (evento.id_tipo_evento = tipo_evento.id_tipo_evento);
+select * from mora_monitora join operador on (mora_monitora.id_operador = operador.id_operador) join bairro on (mora_monitora.id_bairro = bairro.id_bairro);
+select * from ocorre1 join evento on (ocorre1.id_evento = evento.id_evento) join cidade on (ocorre1.id_cidade = cidade.id_cidade);
+select * from operador join tipo_operador on (operador.id_tipo_operador = tipo_operador.id_tipo_operador);
+select * from populacao join tipo_populacao on (populacao.id_tipo_populacao = tipo_populacao.id_tipo_populacao);
+select * from possui5 join serviço on (possui5.id_serviço = possui5.id_serviço) join cidade on (possui5.id_cidade = possui5.id_cidade);
+select * from possui7 join cidade on (possui7.id_cidade = possui7.id_cidade) join clima on (possui7.id_tempo = clima.id_tempo);
+select * from serviço join tipo_servicos on (serviço.id_tipo_serviços = tipo_servicos.id_tipo_serviços);
+select * from tipo_ocorrencia join evento on (tipo_ocorrencia.id_evento_FK = evento.id_evento);
+select * from uac join cidade on (uac.id_cidade = cidade.id_cidade) join tipo_uac on (uac.id_tipo_uac = tipo_uac.id_tipo_uac);
