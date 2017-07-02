@@ -20,7 +20,7 @@ https://github.com/AUCSYS/Trabalho01/blob/master/AUCSYS_ULTIMATE_GabrielGon%C3%A
 
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](AUCSYS_CONCEITUAL.jpg)
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/trab_aucsys_conceitual.jpg)
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
@@ -81,7 +81,7 @@ https://github.com/AUCSYS/Trabalho01/blob/master/AUCSYS_ULTIMATE_GabrielGon%C3%A
 
 ### 6	MODELO LÓGICO<br>
 
-   ![Alt text](AUCSYS_LOGICO.jpg)
+   ![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/trab_aucsys_logico.jpg)
 
 ### 7	MODELO FÍSICO<br>
 https://github.com/AUCSYS/Trabalho01/blob/master/Script%20Modelo%20fisico.sql <br>
