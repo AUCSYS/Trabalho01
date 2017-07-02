@@ -435,6 +435,17 @@ https://github.com/AUCSYS/Trabalho01/blob/master/Script%20group%20by.sql <br>
 ![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/group%20by5.PNG)<br>
         
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
+https://github.com/AUCSYS/Trabalho01/blob/master/Script%20left%20and%20right.sql <br>
+
+##### select * from contato right join tipo_contato on (contato.id_tipo_contato = tipo_contato.id_tipo_contato);
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/left_right1.PNG)<br>
+##### select * from bairro left join cidade on (bairro.id_cidade = cidade.id_cidade);
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/left_right2.PNG)<br>
+##### select * from possui5 left join cidade on (possui5.id_cidade = possui5.id_cidade) group by descricao_cidade;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/left_right3.PNG)<br>
+##### select * from uac right join tipo_uac on (uac.id_tipo_uac = tipo_uac.id_tipo_uac);
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/left_right4.PNG)<br>
+
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
