@@ -254,7 +254,25 @@ https://github.com/AUCSYS/Trabalho01/blob/master/Script%20left%20and%20right.sql
 ![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/left_right4.PNG)<br>
 
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
+
+https://github.com/AUCSYS/Trabalho01/blob/master/Script%20view.sql <br>
+
+##### create view views1 as select id_operador, nome_operador from operador;
+##### create view views2 as select id_cidade, descricao_cidade from cidade;
+##### create view views3 as select * from pais;
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/view.PNG)<br>
+
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
+https://github.com/AUCSYS/Trabalho01/blob/master/Script%20Subconsulta.sql <br>
+
+##### select nome_operador, datanasc_operador from operador where nome_operador in (select nome_operador from operador where nome_operador like 'J%');
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/subconsulta1.PNG)<br>
+##### select id_cidade, descricao_cidade from cidade where descricao_cidade in (select descricao_cidade from cidade where id_cidade > 10042);
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/subconsulta2.PNG)<br>
+##### select id_estado, descricao_estado from estado where descricao_estado in (select descricao_estado from estado where descricao_estado != 'ES');
+![Alt text](https://github.com/AUCSYS/Trabalho01/blob/master/subconsulta3.PNG)<br>
+
+
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ### 11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
