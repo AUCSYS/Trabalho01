@@ -1,0 +1,3 @@
+select nome_operador, datanasc_operador from operador where nome_operador in (select nome_operador from operador where nome_operador like 'J%');
+select id_cidade, descricao_cidade from cidade where descricao_cidade in (select descricao_cidade from cidade where id_cidade > 10042);
+select id_estado, descricao_estado from estado where descricao_estado in (select descricao_estado from estado where descricao_estado != 'ES');
