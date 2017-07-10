@@ -275,7 +275,7 @@ https://github.com/AUCSYS/Trabalho01/blob/master/Script%20Subconsulta.sql <br>
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 
-
+https://github.com/AUCSYS/Trabalho01/blob/master/slides_bd.odp
 
 ### 11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
