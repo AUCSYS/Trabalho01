@@ -274,6 +274,9 @@ https://github.com/AUCSYS/Trabalho01/blob/master/Script%20Subconsulta.sql <br>
 
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
+
+
+
 ### 11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
         Entrega até este ponto em (data a ser definida)
